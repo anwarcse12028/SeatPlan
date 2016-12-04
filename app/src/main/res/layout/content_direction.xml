@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/logos"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_direction"
+    tools:context="com.hussen.anwar.mbstuseatplan_2015.direction">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Students Responsibility:"
+                android:textColor="@color/holoGreenLight"
+                android:textSize="30sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=">Bring the photocopy of main or temporary certificate of S.S.C/Equivalent.\n\n>Original registration card of H.S.C/Equivalent and attested photocopy of it(2 copy) write roll(Bengali and English) in photocopy.
+                \n\n>Attested color photo of examinee(2 copy) and write name and roll(from SMS) in backside of photo both Bengali and English.
+               \n\n>Attach photos upper left corner of registration card separately by stapler.
+                \n\n>Nobody can not participate in admission test without original registration card of H.S.C/Equivalent.
+                \n\n>Mobile phone, Calculator or any other electrical communication device strictly prohibited in examination hall.
+                \n\n>Use ballpoint pen to fill up answer script.
+                \n\n>If anyone lose his roll number, he can collect roll number from corresponding unit office by paying 200/-."
+
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

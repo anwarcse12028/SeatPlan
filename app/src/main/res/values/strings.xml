@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MBSTU Seat Plan-2015</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About us</string>
+    <string name="title_activity_roll_search">Seat Plan</string>
+    <string name="title_activity_display_result">Examination Center</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_direction">Direction</string>
+    <string name="title_activity_direction_string">>Bring the photocopy of main or temporary certificate of S.S.C/Equivalent.>Original registration card of H.S.C/Equivalent and attested photocopy of it(2 copy) write roll(Bengali and English) in photocopy.
+                >Attested color photo of examinee(2 copy) and write name and roll(from SMS) in backside of photo both Bengali and English.
+                >Attach photos upper left corner of registration card separately by stapler.
+                >Nobody can not participate in admission test without original registration card of H.S.C/Equivalent.
+                >Mobile phone, Calculator or any other electrical communication device strictly prohibited in examination hall.
+                >Use ballpoint pen to fill up answer script.
+                >If anyone lose his roll number, he can collect roll number from corresponding unit office by paying 200/-.</string>
+
+</resources>
